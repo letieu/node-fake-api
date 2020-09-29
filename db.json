@@ -1,0 +1,490 @@
+{
+  "GET": {
+    "/advertisers/invoices/10": {
+      "meta": {
+        "status": 200
+      },
+      "data": {
+        "adflex_deduct_revenue": 0.0,
+        "adflex_invoice_revenue": 400.0,
+        "adflex_payout": 400.0,
+        "advertiser_address": "moon",
+        "advertiser_email": "butabatri@mail.com",
+        "advertiser_id": "butabatri",
+        "advertiser_name": "butabatri",
+        "advertiser_phone": "0915151515",
+        "created_at": 1599205176289,
+        "created_by": "toanndz",
+        "due_date": 1577811600000,
+        "end_date": 1576083600000,
+        "id": 10,
+        "modified_by": "toanndz",
+        "offer_invoices": [
+          {
+            "adflex_deduct_revenue": 0.0,
+            "adflex_invoice_revenue": 60.0,
+            "adflex_payout": 60.0,
+            "advertiser_cancelled_conversion_count": 0,
+            "conversion_count": 2,
+            "id": 647,
+            "offer_adflex_payout": 30.0,
+            "offer_id": "antrikhang11-vn"
+          },
+          {
+            "adflex_deduct_revenue": 0.0,
+            "adflex_invoice_revenue": 40.0,
+            "adflex_payout": 40.0,
+            "advertiser_cancelled_conversion_count": 0,
+            "conversion_count": 1,
+            "id": 648,
+            "offer_adflex_payout": 40.0,
+            "offer_id": "antrikhang4-vn"
+          },
+          {
+            "adflex_deduct_revenue": 0.0,
+            "adflex_invoice_revenue": 400.0,
+            "adflex_payout": 400.0,
+            "advertiser_cancelled_conversion_count": 0,
+            "conversion_count": 1,
+            "id": 649,
+            "offer_adflex_payout": 20.0,
+            "offer_id": "antrikhang9-vn"
+          },
+          {
+            "adflex_deduct_revenue": 0.0,
+            "adflex_invoice_revenue": 30.0,
+            "adflex_payout": 30.0,
+            "advertiser_cancelled_conversion_count": 0,
+            "conversion_count": 1,
+            "id": 650,
+            "offer_adflex_payout": 30.0,
+            "offer_id": "antrikhang6-vn"
+          },
+          {
+            "adflex_deduct_revenue": 0.0,
+            "adflex_invoice_revenue": 20.0,
+            "adflex_payout": 20.0,
+            "advertiser_cancelled_conversion_count": 0,
+            "conversion_count": 1,
+            "id": 651,
+            "offer_adflex_payout": 20.0,
+            "offer_id": "antrikhang11-vn"
+          }
+        ],
+        "start_date": 1570640400000,
+        "status": 0
+      }
+    },
+    "/advertisers/invoices": {
+      "meta": {
+        "status": 200,
+        "page": {
+          "page_number": 0,
+          "page_size": 24,
+          "total_elements": 10,
+          "total_pages": 1
+        }
+      },
+      "data": [
+        {
+          "adflex_deduct_revenue": 0.0,
+          "adflex_invoice_revenue": 400.0,
+          "adflex_payout": 400.0,
+          "advertiser_address": "moon",
+          "advertiser_email": "butabatri@mail.com",
+          "advertiser_id": "butabatri",
+          "advertiser_name": "butabatri",
+          "advertiser_phone": "0915151515",
+          "created_at": 1599204706183,
+          "created_by": "toanndz",
+          "due_date": 1577811600000,
+          "end_date": 1576083600000,
+          "id": 10,
+          "modified_by": "toanndz",
+          "start_date": 1570640400000,
+          "status": 0
+        },
+        {
+          "adflex_deduct_revenue": 0.0,
+          "adflex_invoice_revenue": 400.0,
+          "adflex_payout": 400.0,
+          "advertiser_address": "moon",
+          "advertiser_email": "butabatri@mail.com",
+          "advertiser_id": "butabatri",
+          "advertiser_name": "butabatri",
+          "advertiser_phone": "0915151515",
+          "created_at": 1599204706183,
+          "created_by": "toanndz",
+          "due_date": 1577811600000,
+          "end_date": 1576083600000,
+          "id": 55,
+          "modified_by": "toanndz",
+          "start_date": 1570640400000,
+          "status": 0
+        },
+        {
+          "adflex_deduct_revenue": 0.0,
+          "adflex_invoice_revenue": 400.0,
+          "adflex_payout": 400.0,
+          "advertiser_address": "moon",
+          "advertiser_email": "butabatri@mail.com",
+          "advertiser_id": "butabatri",
+          "advertiser_name": "butabatri",
+          "advertiser_phone": "0915151515",
+          "created_at": 1599204706183,
+          "created_by": "toanndz",
+          "due_date": 1577811600000,
+          "end_date": 1576083600000,
+          "id": 55,
+          "modified_by": "toanndz",
+          "start_date": 1570640400000,
+          "status": 0
+        }
+      ]
+    },
+    "/consolidations": {
+      "data": [
+        {
+          "id": 10,
+          "status": 0,
+          "end_date": 1576083600000,
+          "created_at": 1599204706183,
+          "created_by": "toannd@eway.vn",
+          "start_date": 1570640400000,
+          "modified_at": 1599204706183,
+          "modified_by": "toannd@eway.vn",
+          "adflex_payout": 540,
+          "advertiser_id": "butabatri"
+        },
+        {
+          "id": 13,
+          "status": 0,
+          "end_date": 1570640400000,
+          "created_at": 1599204706183,
+          "created_by": "toannd",
+          "start_date": 1567962000000,
+          "modified_at": 1599204706183,
+          "modified_by": "toannd",
+          "adflex_payout": 150,
+          "advertiser_id": "butabatri"
+        }
+      ],
+      "meta": {
+        "page": {
+          "page_size": 24,
+          "page_number": 0,
+          "total_pages": 1,
+          "total_elements": 2
+        },
+        "status": 200
+      }
+    },
+    "/consolidations/10": {
+      "data": {
+        "id": 10,
+        "status": 0,
+        "end_date": 1570640400000,
+        "created_at": 1599204706183,
+        "created_by": "toannd",
+        "start_date": 1567962000000,
+        "modified_at": 1599204706183,
+        "modified_by": "toannd",
+        "adflex_payout": 150,
+        "advertiser_id": "butabatri"
+      },
+      "meta": {
+        "status": 200
+      }
+    },
+    "/consolidations/previews": {
+      "data": [
+        {
+          "id": "conversion1",
+          "reason": "string",
+          "offer_id": "antrikhang-vn",
+          "adflex_payout": 100,
+          "customer_name": "toandz",
+          "customer_phone": "0915151515",
+          "payment_status": 0
+        }
+      ],
+      "meta": {
+        "page": {
+          "page_size": 24,
+          "total_page": 0,
+          "page_number": 0,
+          "total_elements": 0
+        },
+        "status": 200
+      }
+    },
+    "/consolidations/10/conversions": {
+      "data": [
+        {
+          "id": "butabatri1000011",
+          "reason": null,
+          "offer_id": "antrikhang7-vn",
+          "adflex_payout": 30,
+          "advertiser_id": "butabatri",
+          "payment_status": 1,
+          "adflex_transaction_id": "butabatri1000011"
+        },
+        {
+          "id": "butabatri1000012",
+          "reason": null,
+          "offer_id": "antrikhang9-vn",
+          "adflex_payout": 30,
+          "advertiser_id": "butabatri",
+          "payment_status": 1,
+          "adflex_transaction_id": "butabatri1000012"
+        }
+      ],
+      "meta": {
+        "page": {
+          "page_size": 24,
+          "page_number": 0,
+          "total_pages": 0,
+          "total_elements": 5
+        },
+        "status": 200
+      }
+    },
+    "/consolidations/10/summary": {
+      "data": [
+        {
+          "adflex_payout": 1000,
+          "adflex_invoice_revenue": 900,
+          "adflex_deduct_revenue": 100,
+          "id": 10,
+          "offer_id": "antrikhang-vn",
+          "offer_adflex_payout": 100,
+          "advertiser_cancelled_conversion_count": 1,
+          "conversion_count": 10,
+          "advertiser_cancelled_conversions": [
+            {
+              "id": "conversion1",
+              "adflex_payout": 100,
+              "offer_id": "antrikhang-vn",
+              "customer_phone": "0915151515",
+              "customer_name": "toandz",
+              "payment_status": 0,
+              "reason": "string"
+            },
+            {
+              "id": "conversion1",
+              "adflex_payout": 100,
+              "offer_id": "antrikhang-vn",
+              "customer_phone": "0915151515",
+              "customer_name": "toandz",
+              "payment_status": 0,
+              "reason": "string"
+            }
+          ]
+        }
+      ],
+      "meta": {
+        "status": 200
+      }
+    }
+  },
+  "POST": {
+    "/advertisers/invoices": {
+      "meta": {
+        "status": 201
+      },
+      "data": {
+        "adflex_deduct_revenue": 0.0,
+        "adflex_invoice_revenue": 400.0,
+        "adflex_payout": 400.0,
+        "advertiser_address": "moon",
+        "advertiser_email": "butabatri@mail.com",
+        "advertiser_id": "butabatri",
+        "advertiser_name": "butabatri",
+        "advertiser_phone": "0915151515",
+        "created_at": 1599205176289,
+        "created_by": "toanndz",
+        "due_date": 1577811600000,
+        "end_date": 1576083600000,
+        "id": 57,
+        "modified_by": "toanndz",
+        "offer_invoices": [
+          {
+            "adflex_deduct_revenue": 0.0,
+            "adflex_invoice_revenue": 60.0,
+            "adflex_payout": 60.0,
+            "advertiser_cancelled_conversion_count": 0,
+            "conversion_count": 2,
+            "id": 647,
+            "offer_adflex_payout": 30.0,
+            "offer_id": "antrikhang11-vn"
+          },
+          {
+            "adflex_deduct_revenue": 0.0,
+            "adflex_invoice_revenue": 40.0,
+            "adflex_payout": 40.0,
+            "advertiser_cancelled_conversion_count": 0,
+            "conversion_count": 1,
+            "id": 648,
+            "offer_adflex_payout": 40.0,
+            "offer_id": "antrikhang4-vn"
+          },
+          {
+            "adflex_deduct_revenue": 0.0,
+            "adflex_invoice_revenue": 400.0,
+            "adflex_payout": 400.0,
+            "advertiser_cancelled_conversion_count": 0,
+            "conversion_count": 1,
+            "id": 649,
+            "offer_adflex_payout": 20.0,
+            "offer_id": "antrikhang9-vn"
+          },
+          {
+            "adflex_deduct_revenue": 0.0,
+            "adflex_invoice_revenue": 30.0,
+            "adflex_payout": 30.0,
+            "advertiser_cancelled_conversion_count": 0,
+            "conversion_count": 1,
+            "id": 650,
+            "offer_adflex_payout": 30.0,
+            "offer_id": "antrikhang6-vn"
+          },
+          {
+            "adflex_deduct_revenue": 0.0,
+            "adflex_invoice_revenue": 20.0,
+            "adflex_payout": 20.0,
+            "advertiser_cancelled_conversion_count": 0,
+            "conversion_count": 1,
+            "id": 651,
+            "offer_adflex_payout": 20.0,
+            "offer_id": "antrikhang11-vn"
+          }
+        ],
+        "start_date": 1570640400000,
+        "status": 0
+      }
+    },
+    "/consolidations": {
+      "data": {
+        "id": 12,
+        "status": 0,
+        "end_date": 1576083600000,
+        "created_at": 1599204706183,
+        "created_by": "toannd@eway.vn",
+        "start_date": 1570640400000,
+        "modified_at": 1599204706183,
+        "modified_by": "toannd@eway.vn",
+        "adflex_payout": 540,
+        "advertiser_id": "butabatri"
+      },
+      "meta": {
+        "status": 0
+      }
+    }
+  },
+  "PUT": {
+    "/advertisers/invoices/10": {
+      "meta": {
+        "status": 200
+      },
+      "data": {
+        "adflex_deduct_revenue": 0.0,
+        "adflex_invoice_revenue": 400.0,
+        "adflex_payout": 400.0,
+        "advertiser_address": "moon",
+        "advertiser_email": "butabatri@mail.com",
+        "advertiser_id": "butabatri",
+        "advertiser_name": "butabatri",
+        "advertiser_phone": "0915151515",
+        "created_at": 1599205176289,
+        "created_by": "toanndz",
+        "due_date": 1577811600000,
+        "end_date": 1576083600000,
+        "id": 57,
+        "modified_by": "toanndz",
+        "offer_invoices": [
+          {
+            "adflex_deduct_revenue": 0.0,
+            "adflex_invoice_revenue": 60.0,
+            "adflex_payout": 60.0,
+            "advertiser_cancelled_conversion_count": 0,
+            "conversion_count": 2,
+            "id": 647,
+            "offer_adflex_payout": 30.0,
+            "offer_id": "antrikhang11-vn"
+          },
+          {
+            "adflex_deduct_revenue": 0.0,
+            "adflex_invoice_revenue": 40.0,
+            "adflex_payout": 40.0,
+            "advertiser_cancelled_conversion_count": 0,
+            "conversion_count": 1,
+            "id": 648,
+            "offer_adflex_payout": 40.0,
+            "offer_id": "antrikhang4-vn"
+          },
+          {
+            "adflex_deduct_revenue": 0.0,
+            "adflex_invoice_revenue": 400.0,
+            "adflex_payout": 400.0,
+            "advertiser_cancelled_conversion_count": 0,
+            "conversion_count": 1,
+            "id": 649,
+            "offer_adflex_payout": 20.0,
+            "offer_id": "antrikhang9-vn"
+          },
+          {
+            "adflex_deduct_revenue": 0.0,
+            "adflex_invoice_revenue": 30.0,
+            "adflex_payout": 30.0,
+            "advertiser_cancelled_conversion_count": 0,
+            "conversion_count": 1,
+            "id": 650,
+            "offer_adflex_payout": 30.0,
+            "offer_id": "antrikhang6-vn"
+          },
+          {
+            "adflex_deduct_revenue": 0.0,
+            "adflex_invoice_revenue": 20.0,
+            "adflex_payout": 20.0,
+            "advertiser_cancelled_conversion_count": 0,
+            "conversion_count": 1,
+            "id": 651,
+            "offer_adflex_payout": 20.0,
+            "offer_id": "antrikhang11-vn"
+          }
+        ],
+        "start_date": 1570640400000,
+        "status": 0
+      }
+    },
+    "/consolidations/10": {
+      "data": {
+        "id": 10,
+        "updated_at": 134123232323,
+        "updated_by": "toand@eway.vn",
+        "created_at": 134123232323,
+        "created_by": "toand@eway.vn",
+        "advertiser_id": "butabatri",
+        "start_date": 1500000000000,
+        "end_date": 1600000000000,
+        "adflex_payout": 1000,
+        "status": 0
+      },
+      "meta": {
+        "status": 200
+      }
+    },
+    "/consolidations/10/conversions/non-payment": {
+      "meta": {
+        "status": 200
+      }
+    },
+    "/consolidations/10/conversions/add": {
+      "meta": {
+        "status": 200
+      }
+    }
+  },
+  "DELETE": {
+  }
+}
