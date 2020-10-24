@@ -2,10 +2,11 @@ let http = require('http')
 let url = require('url')
 let fs = require('fs')
 let db = 'db.json'
+const sleep = (waitTimeInMs) => new Promise(resolve => setTimeout(resolve, waitTimeInMs));
 
 
-http.createServer((req, res) => {
-     
+http.createServer(async (req, res) => {
+     await sleep(3000)
      let {code, data} = handleRequest(req)
      
      res.writeHead(code, {"Content-Type": "application/json"})	
@@ -14,10 +15,20 @@ http.createServer((req, res) => {
 }).listen(3000)
 
 
-
 function handleRequest(req) {
-	let query = url.parse(req.url, true)
+	
+	//get post data
+	let input = []
+	req.on('data', chunk => input.push(chunk))
+	req.on('end', () => {
+		input = Buffer.concat(input).toString();
+		if (input) console.log(JSON.parse(input));
+		
+	})
 
+	//end
+
+	let query = url.parse(req.url, true)
 
 	data = getData(query, req.method)
 	data = JSON.stringify(data)
